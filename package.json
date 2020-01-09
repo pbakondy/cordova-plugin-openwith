@@ -1,9 +1,9 @@
 {
-  "name": "cc.fovea.cordova.openwith",
-  "version": "2.0.0",
+  "name": "cordova-plugin-openwith",
+  "version": "3.0.0",
   "description": "Cordova \"Open With\" plugin for iOS and Android",
   "cordova": {
-    "id": "cc.fovea.cordova.openwith",
+    "id": "cordova-plugin-openwith",
     "platforms": [
       "android",
       "ios"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/j3k0/cordova-plugin-openwith.git"
+    "url": "https://github.com/pbakondy/cordova-plugin-openwith.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -39,14 +39,12 @@
     "url": "https://github.com/j3k0/cordova-plugin-openwith/issues"
   },
   "homepage": "https://github.com/j3k0/cordova-plugin-openwith",
-  "# Dependencies required by the hooks": "",
   "dependencies": {
     "file-system": "^2.2.2",
     "path": "^0.12.7",
     "plist": "^2.1.0",
     "xcode": "git+https://github.com/apache/cordova-node-xcode.git"
   },
-  "# Dependencies required to run tests": "",
   "devDependencies": {
     "eslint": "^4.7.2",
     "eslint-config-standard": "^10.2.1",
@@ -59,7 +57,6 @@
     "expect.js": "^0.3.1",
     "mocha": "^3.5.3"
   },
-  "# White list the files to pack by npm publish": "",
   "files": [
     "src/android/cc/fovea/openwith/ByteStreams.java",
     "src/android/cc/fovea/openwith/OpenWithPlugin.java",
